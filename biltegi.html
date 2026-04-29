@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>GAMESTOP</title>
+      <meta name="description" content="XSLT Ariketa osoa">
+      <meta name="keywords" content="HTML, CSS, XML">
+      <meta name="author" content="E3T3">
+      <link rel="stylesheet" href="../css/layout.css">
+      <link rel="stylesheet" href="../css/xsltstyles.css"><script src="https://kit.fontawesome.com/9c26aa19b5.js" crossorigin="anonymous"></script><link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+   </head>
+   <body><a id="top-page"></a><header id="header">
+         <div class="header-logo"><span class="logo-left">GAME</span><span class="logo-right">STOP</span></div>
+         <div class="header-nav-row">
+            <nav><a href="index.html">Hasiera</a><a href="bezero.html">Bezeroak</a><a href="biltegi.html">Biltegiak</a><a href="bulegari.html">Bulegariak</a><a href="eskari.html">Eskariak</a><a href="saltzaile.html">Saltzaileak</a><a href="produktuak.html">Produktuak</a></nav>
+            <div class="buscador"><input type="text" id="searchInput" placeholder="Bilatu..."><button onclick="buscar()">🔍</button></div>
+         </div>
+      </header>
+      <main>
+         <h1>Biltegi zerrenda</h1>
+         <h2>Biltegi kopurua: <span id="contador">9</span></h2>
+         <div class="biltegiak">
+            <div class="datuak">
+               <div class="izena">Beijing</div>
+               <div class="datua"><strong>ID: </strong>8</div>
+               <div class="datua"><strong>Helbidea: </strong>40-5-12 Laogianggen</div>
+               <div class="datua"><strong>Udalerria: </strong>Beijing</div>
+               <div class="datua"><strong>Herrialdea: </strong>China</div>
+            </div>
+            <div class="datuak">
+               <div class="izena">Bombay</div>
+               <div class="datua"><strong>ID: </strong>9</div>
+               <div class="datua"><strong>Helbidea: </strong>1298 Vileparle (E)</div>
+               <div class="datua"><strong>Udalerria: </strong>Bombay</div>
+               <div class="datua"><strong>Probintzia: </strong>Maharashtra</div>
+               <div class="datua"><strong>Herrialdea: </strong>India</div>
+            </div>
+            <div class="datuak">
+               <div class="izena">Mexico City</div>
+               <div class="datua"><strong>ID: </strong>7</div>
+               <div class="datua"><strong>Helbidea: </strong>Mariano Escobedo 9991</div>
+               <div class="datua"><strong>Udalerria: </strong>Mexico City</div>
+               <div class="datua"><strong>Probintzia: </strong>Distrito Federal,</div>
+               <div class="datua"><strong>Herrialdea: </strong>Mexico</div>
+            </div>
+            <div class="datuak">
+               <div class="izena">New Jersey</div>
+               <div class="datua"><strong>ID: </strong>3</div>
+               <div class="datua"><strong>Helbidea: </strong>2007 Zagora St</div>
+               <div class="datua"><strong>Udalerria: </strong>South Brunswick</div>
+               <div class="datua"><strong>Probintzia: </strong>New Jersey</div>
+               <div class="datua"><strong>Herrialdea: </strong>United States of America</div>
+            </div>
+            <div class="datuak">
+               <div class="izena">San Francisco</div>
+               <div class="datua"><strong>ID: </strong>2</div>
+               <div class="datua"><strong>Helbidea: </strong>2011 Interiors Blvd</div>
+               <div class="datua"><strong>Udalerria: </strong>South San Francisco</div>
+               <div class="datua"><strong>Probintzia: </strong>California</div>
+               <div class="datua"><strong>Herrialdea: </strong>United States of America</div>
+            </div>
+            <div class="datuak">
+               <div class="izena">Seattle, Washington</div>
+               <div class="datua"><strong>ID: </strong>4</div>
+               <div class="datua"><strong>Helbidea: </strong>2004 Charade Rd</div>
+               <div class="datua"><strong>Udalerria: </strong>Seattle</div>
+               <div class="datua"><strong>Probintzia: </strong>Washington</div>
+               <div class="datua"><strong>Herrialdea: </strong>United States of America</div>
+            </div>
+            <div class="datuak">
+               <div class="izena">Southlake, Texas</div>
+               <div class="datua"><strong>ID: </strong>1</div>
+               <div class="datua"><strong>Helbidea: </strong>2014 Jabberwocky Rd</div>
+               <div class="datua"><strong>Udalerria: </strong>Southlake</div>
+               <div class="datua"><strong>Probintzia: </strong>Texas</div>
+               <div class="datua"><strong>Herrialdea: </strong>United States of America</div>
+            </div>
+            <div class="datuak">
+               <div class="izena">Sydney</div>
+               <div class="datua"><strong>ID: </strong>6</div>
+               <div class="datua"><strong>Helbidea: </strong>12-98 Victoria Street</div>
+               <div class="datua"><strong>Udalerria: </strong>Sydney</div>
+               <div class="datua"><strong>Probintzia: </strong>New South Wales</div>
+               <div class="datua"><strong>Herrialdea: </strong>Australia</div>
+            </div>
+            <div class="datuak">
+               <div class="izena">Toronto</div>
+               <div class="datua"><strong>ID: </strong>5</div>
+               <div class="datua"><strong>Helbidea: </strong>147 Spadina Ave</div>
+               <div class="datua"><strong>Udalerria: </strong>Toronto</div>
+               <div class="datua"><strong>Probintzia: </strong>Ontario</div>
+               <div class="datua"><strong>Herrialdea: </strong>Canada</div>
+            </div>
+         </div>
+      </main>
+      <footer id="footer">
+         <div class="box">
+            <h2>JARRI KONTAKTUAN</h2>
+            <div class="red-social"><a href="https://www.gamestop.com/">GS</a><a href="https://www.facebook.com/GameStop" class="fa fa-facebook"></a><a href="https://x.com/gamestop" class="fa-brands fa-x-twitter"></a><a href="https://www.instagram.com/gamestop/" class="fa fa-instagram"></a><a href="https://www.tiktok.com/@gamestop" class="fa-brands fa-tiktok"></a><a href="https://www.youtube.com/gamestopvideo" class="fa fa-youtube"></a></div>
+         </div>
+         <p id="top" class="text-center"><a href="#top-page"><i class="bx bxs-chevron-up"></i></a></p>
+      </footer><script>
+          document.getElementById('searchInput').addEventListener('input', function() {
+          var texto = this.value.toLowerCase();
+          var tarjetas = document.querySelectorAll('.datuak');
+          var visibles = 0;
+          tarjetas.forEach(function(tarjeta) {
+          var izena = tarjeta.querySelector('.izena');
+          if (izena) {
+          var mostrar = izena.textContent.toLowerCase().includes(texto);
+          tarjeta.style.display = mostrar ? '' : 'none';
+          if (mostrar) visibles++;
+          }
+          });
+          var contador = document.getElementById('contador');
+          if (contador) contador.textContent = visibles;
+          });
+        </script></body>
+</html>

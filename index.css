@@ -1,0 +1,56 @@
+main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.hero {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 4rem 2rem;
+   text-align: center;
+}
+
+.hero-content h1 {
+   font-size: 2.5rem;
+   margin-bottom: 1rem;
+}
+
+.hero-content p {
+   font-size: 1.2rem;
+}
+
+.accesos {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 1.5rem;
+   padding: 2rem;
+   max-width: 900px;
+   margin: 0 auto;
+}
+
+.acceso-card {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 2rem;
+   border-radius: 8px;
+   text-decoration: none;
+   gap: 0.5rem;
+   transition: transform 0.2s;
+}
+
+.acceso-card:hover {
+   transform: translateY(-4px);
+}
+
+.acceso-card i {
+   font-size: 2rem;
+}
+
+.acceso-card h2 {
+   font-size: 1rem;
+   margin: 0;
+}

@@ -1,0 +1,587 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>GAMESTOP</title>
+      <meta name="description" content="XSLT Ariketa osoa">
+      <meta name="keywords" content="HTML, CSS, XML">
+      <meta name="author" content="E3T3">
+      <link rel="stylesheet" href="../css/layout.css">
+      <link rel="stylesheet" href="../css/xsltstyles.css"><script src="https://kit.fontawesome.com/9c26aa19b5.js" crossorigin="anonymous"></script><link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+   </head>
+   <body><a id="top-page"></a><header id="header">
+         <div class="header-logo"><span class="logo-left">GAME</span><span class="logo-right">STOP</span></div>
+         <div class="header-nav-row">
+            <nav><a href="index.html">Hasiera</a><a href="bezero.html">Bezeroak</a><a href="biltegi.html">Biltegiak</a><a href="bulegari.html">Bulegariak</a><a href="eskari.html">Eskariak</a><a href="saltzaile.html">Saltzaileak</a><a href="produktuak.html">Produktuak</a></nav>
+            <div class="buscador"><input type="text" id="searchInput" placeholder="Bilatu..."><button onclick="buscar()">🔍</button></div>
+         </div>
+      </header>
+      <main>
+         <h1>Bulegariak zerrenda</h1>
+         <h2>Bulegari kopurua: <span id="contador">77</span></h2>
+         <div class="bulegariak">
+            <div class="datuak"><img src="../images/avatar/thumb-2.png" alt="Ibrahim"><div class="izena">Ibrahim Alexander</div>
+               <div class="datua"><strong>Lanpostua: </strong>Stock Clerk</div>
+               <div class="datua"><strong>Email: </strong>ibrahim.alexander@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.127.1634</div>
+               <div class="datua"><strong>Kontratazio data: </strong>06/02/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>23</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-5.png" alt="Tommy"><div class="izena">Tommy Bailey</div>
+               <div class="datua"><strong>Lanpostua: </strong>President</div>
+               <div class="datua"><strong>Email: </strong>tommy.bailey@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>515.123.4567</div>
+               <div class="datua"><strong>Kontratazio data: </strong>17/06/16</div>
+               <div class="datua"><strong>Id nagusi: </strong></div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-1.png" alt="Dexter"><div class="izena">Dexter Barnes</div>
+               <div class="datua"><strong>Lanpostua: </strong>Purchasing Clerk</div>
+               <div class="datua"><strong>Email: </strong>dexter.barnes@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>515.127.4566</div>
+               <div class="datua"><strong>Kontratazio data: </strong>10/08/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>47</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-1.png" alt="Ollie"><div class="izena">Ollie Bennett</div>
+               <div class="datua"><strong>Lanpostua: </strong>Purchasing Clerk</div>
+               <div class="datua"><strong>Email: </strong>ollie.bennett@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>515.127.4564</div>
+               <div class="datua"><strong>Kontratazio data: </strong>24/07/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>47</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-4.png" alt="Eliza"><div class="izena">Eliza Black</div>
+               <div class="datua"><strong>Lanpostua: </strong>Shipping Clerk</div>
+               <div class="datua"><strong>Email: </strong>eliza.black@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.505.2876</div>
+               <div class="datua"><strong>Kontratazio data: </strong>13/08/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>23</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-6.png" alt="Elliot"><div class="izena">Elliot Brooks</div>
+               <div class="datua"><strong>Lanpostua: </strong>Accountant</div>
+               <div class="datua"><strong>Email: </strong>elliTIENDA.brooks@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>515.124.4567</div>
+               <div class="datua"><strong>Kontratazio data: </strong>07/12/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>9</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-5.png" alt="Felix"><div class="izena">Felix Bryant</div>
+               <div class="datua"><strong>Lanpostua: </strong>Stock Clerk</div>
+               <div class="datua"><strong>Email: </strong>felix.bryant@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.127.1734</div>
+               <div class="datua"><strong>Kontratazio data: </strong>12/12/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>23</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-6.png" alt="Ivy"><div class="izena">Ivy Burns</div>
+               <div class="datua"><strong>Lanpostua: </strong>Shipping Clerk</div>
+               <div class="datua"><strong>Email: </strong>ivy.burns@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.507.9878</div>
+               <div class="datua"><strong>Kontratazio data: </strong>21/06/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>21</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-2.png" alt="Jamie"><div class="izena">Jamie Butler</div>
+               <div class="datua"><strong>Lanpostua: </strong>Stock Clerk</div>
+               <div class="datua"><strong>Email: </strong>jamie.butler@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.124.7234</div>
+               <div class="datua"><strong>Kontratazio data: </strong>16/02/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>22</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-5.png" alt="Isabella"><div class="izena">Isabella Cole</div>
+               <div class="datua"><strong>Lanpostua: </strong>Sales Manager</div>
+               <div class="datua"><strong>Email: </strong>isabella.cole@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>011.44.1344.619268</div>
+               <div class="datua"><strong>Kontratazio data: </strong>15/10/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>1</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-1.png" alt="Jackson"><div class="izena">Jackson Coleman</div>
+               <div class="datua"><strong>Lanpostua: </strong>Stock Manager</div>
+               <div class="datua"><strong>Email: </strong>jackson.coleman@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.123.3234</div>
+               <div class="datua"><strong>Kontratazio data: </strong>01/05/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>1</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-6.png" alt="Blake"><div class="izena">Blake Cooper</div>
+               <div class="datua"><strong>Lanpostua: </strong>Administration Vice President</div>
+               <div class="datua"><strong>Email: </strong>blake.cooper@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>515.123.4569</div>
+               <div class="datua"><strong>Kontratazio data: </strong>13/01/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>1</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-1.png" alt="Nathan"><div class="izena">Nathan Cox</div>
+               <div class="datua"><strong>Lanpostua: </strong>Programmer</div>
+               <div class="datua"><strong>Email: </strong>nathan.cox@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>590.423.4568</div>
+               <div class="datua"><strong>Kontratazio data: </strong>21/05/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>4</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-1.png" alt="Lilly"><div class="izena">Lilly Daniels</div>
+               <div class="datua"><strong>Lanpostua: </strong>Shipping Clerk</div>
+               <div class="datua"><strong>Email: </strong>lilly.daniels@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.505.3876</div>
+               <div class="datua"><strong>Kontratazio data: </strong>11/07/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>23</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-3.png" alt="Caleb"><div class="izena">Caleb Diaz</div>
+               <div class="datua"><strong>Lanpostua: </strong>Stock Clerk</div>
+               <div class="datua"><strong>Email: </strong>caleb.diaz@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.121.2019</div>
+               <div class="datua"><strong>Kontratazio data: </strong>12/02/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>24</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-1.png" alt="Annabelle"><div class="izena">Annabelle Dunn</div>
+               <div class="datua"><strong>Lanpostua: </strong>Administration Assistant</div>
+               <div class="datua"><strong>Email: </strong>annabelle.dunn@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>515.123.4444</div>
+               <div class="datua"><strong>Kontratazio data: </strong>17/09/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>2</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-3.png" alt="Harriet"><div class="izena">Harriet Ferguson</div>
+               <div class="datua"><strong>Lanpostua: </strong>Shipping Clerk</div>
+               <div class="datua"><strong>Email: </strong>harriet.ferguson@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.507.9811</div>
+               <div class="datua"><strong>Kontratazio data: </strong>24/04/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>25</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-6.png" alt="Austin"><div class="izena">Austin Flores</div>
+               <div class="datua"><strong>Lanpostua: </strong>Stock Clerk</div>
+               <div class="datua"><strong>Email: </strong>austin.flores@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.124.5234</div>
+               <div class="datua"><strong>Kontratazio data: </strong>20/08/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>22</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-3.png" alt="Olivia"><div class="izena">Olivia Ford</div>
+               <div class="datua"><strong>Lanpostua: </strong>Stock Clerk</div>
+               <div class="datua"><strong>Email: </strong>olivia.ford@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.121.2994</div>
+               <div class="datua"><strong>Kontratazio data: </strong>29/01/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>25</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-6.png" alt="Seth"><div class="izena">Seth Foster</div>
+               <div class="datua"><strong>Lanpostua: </strong>Stock Clerk</div>
+               <div class="datua"><strong>Email: </strong>seth.foster@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.127.1934</div>
+               <div class="datua"><strong>Kontratazio data: </strong>14/06/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>23</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-2.png" alt="Gracie"><div class="izena">Gracie Gardner</div>
+               <div class="datua"><strong>Lanpostua: </strong>Public Relations Representative</div>
+               <div class="datua"><strong>Email: </strong>gracie.gardner@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>515.123.8888</div>
+               <div class="datua"><strong>Kontratazio data: </strong>07/06/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>2</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-6.png" alt="Carter"><div class="izena">Carter Gonzales</div>
+               <div class="datua"><strong>Lanpostua: </strong>Stock Clerk</div>
+               <div class="datua"><strong>Email: </strong>carter.gonzales@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.127.1834</div>
+               <div class="datua"><strong>Kontratazio data: </strong>26/08/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>23</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-2.png" alt="Erin"><div class="izena">Erin Gordon</div>
+               <div class="datua"><strong>Lanpostua: </strong>Shipping Clerk</div>
+               <div class="datua"><strong>Email: </strong>erin.gordon@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.507.9879</div>
+               <div class="datua"><strong>Kontratazio data: </strong>03/02/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>21</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-4.png" alt="Isla"><div class="izena">Isla Graham</div>
+               <div class="datua"><strong>Lanpostua: </strong>Stock Clerk</div>
+               <div class="datua"><strong>Email: </strong>isla.graham@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.121.2004</div>
+               <div class="datua"><strong>Kontratazio data: </strong>09/07/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>25</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-3.png" alt="Eleanor"><div class="izena">Eleanor Grant</div>
+               <div class="datua"><strong>Lanpostua: </strong>Shipping Clerk</div>
+               <div class="datua"><strong>Email: </strong>eleanor.grant@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.501.3876</div>
+               <div class="datua"><strong>Kontratazio data: </strong>01/07/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>24</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-3.png" alt="Ryan"><div class="izena">Ryan Gray</div>
+               <div class="datua"><strong>Lanpostua: </strong>Accountant</div>
+               <div class="datua"><strong>Email: </strong>ryan.gray@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>515.124.4169</div>
+               <div class="datua"><strong>Kontratazio data: </strong>16/08/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>9</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-3.png" alt="Kian"><div class="izena">Kian Griffin</div>
+               <div class="datua"><strong>Lanpostua: </strong>Stock Clerk</div>
+               <div class="datua"><strong>Email: </strong>kian.griffin@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.121.2034</div>
+               <div class="datua"><strong>Kontratazio data: </strong>26/10/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>24</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-2.png" alt="Emily"><div class="izena">Emily Hamilton</div>
+               <div class="datua"><strong>Lanpostua: </strong>Stock Clerk</div>
+               <div class="datua"><strong>Email: </strong>emily.hamilton@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.121.2874</div>
+               <div class="datua"><strong>Kontratazio data: </strong>15/03/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>25</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-5.png" alt="Thea"><div class="izena">Thea Hawkins</div>
+               <div class="datua"><strong>Lanpostua: </strong>Shipping Clerk</div>
+               <div class="datua"><strong>Email: </strong>thea.hawkins@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.507.9844</div>
+               <div class="datua"><strong>Kontratazio data: </strong>13/01/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>25</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-3.png" alt="Connor"><div class="izena">Connor Hayes</div>
+               <div class="datua"><strong>Lanpostua: </strong>Stock Clerk</div>
+               <div class="datua"><strong>Email: </strong>connor.hayes@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.121.1834</div>
+               <div class="datua"><strong>Kontratazio data: </strong>06/04/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>24</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-6.png" alt="Liam"><div class="izena">Liam Henderson</div>
+               <div class="datua"><strong>Lanpostua: </strong>Stock Manager</div>
+               <div class="datua"><strong>Email: </strong>liam.henderson@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.123.2234</div>
+               <div class="datua"><strong>Kontratazio data: </strong>10/04/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>1</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-1.png" alt="Emilia"><div class="izena">Emilia Holmes</div>
+               <div class="datua"><strong>Lanpostua: </strong>Shipping Clerk</div>
+               <div class="datua"><strong>Email: </strong>emilia.holmes@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.509.2876</div>
+               <div class="datua"><strong>Kontratazio data: </strong>20/02/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>22</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-4.png" alt="Gabriel"><div class="izena">Gabriel Howard</div>
+               <div class="datua"><strong>Lanpostua: </strong>Programmer</div>
+               <div class="datua"><strong>Email: </strong>gabriel.howard@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>590.423.4569</div>
+               <div class="datua"><strong>Kontratazio data: </strong>25/06/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>4</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-2.png" alt="Amelie"><div class="izena">Amelie Hudson</div>
+               <div class="datua"><strong>Lanpostua: </strong>Marketing Representative</div>
+               <div class="datua"><strong>Email: </strong>amelie.hudson@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>603.123.6666</div>
+               <div class="datua"><strong>Kontratazio data: </strong>17/08/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>102</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-6.png" alt="Roman"><div class="izena">Roman Hughes</div>
+               <div class="datua"><strong>Lanpostua: </strong>Stock Clerk</div>
+               <div class="datua"><strong>Email: </strong>roman.hughes@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.124.1434</div>
+               <div class="datua"><strong>Kontratazio data: </strong>08/03/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>21</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-3.png" alt="Jasmine"><div class="izena">Jasmine Hunt</div>
+               <div class="datua"><strong>Lanpostua: </strong>Shipping Clerk</div>
+               <div class="datua"><strong>Email: </strong>jasmine.hunt@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.505.1876</div>
+               <div class="datua"><strong>Kontratazio data: </strong>14/06/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>23</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-2.png" alt="Elliott"><div class="izena">Elliott James</div>
+               <div class="datua"><strong>Lanpostua: </strong>Accountant</div>
+               <div class="datua"><strong>Email: </strong>elliott.james@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>515.124.4369</div>
+               <div class="datua"><strong>Kontratazio data: </strong>30/09/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>9</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-6.png" alt="Callum"><div class="izena">Callum Jenkins</div>
+               <div class="datua"><strong>Lanpostua: </strong>Stock Manager</div>
+               <div class="datua"><strong>Email: </strong>callum.jenkins@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.123.4234</div>
+               <div class="datua"><strong>Kontratazio data: </strong>10/10/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>1</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-3.png" alt="Rory"><div class="izena">Rory Kelly</div>
+               <div class="datua"><strong>Lanpostua: </strong>Purchasing Manager</div>
+               <div class="datua"><strong>Email: </strong>rory.kelly@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>515.127.4561</div>
+               <div class="datua"><strong>Kontratazio data: </strong>07/12/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>1</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-4.png" alt="Hannah"><div class="izena">Hannah Knight</div>
+               <div class="datua"><strong>Lanpostua: </strong>Shipping Clerk</div>
+               <div class="datua"><strong>Email: </strong>hannah.knight@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.501.4876</div>
+               <div class="datua"><strong>Kontratazio data: </strong>17/03/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>24</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-6.png" alt="Kai"><div class="izena">Kai Long</div>
+               <div class="datua"><strong>Lanpostua: </strong>Stock Clerk</div>
+               <div class="datua"><strong>Email: </strong>kai.long@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.124.1224</div>
+               <div class="datua"><strong>Kontratazio data: </strong>28/09/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>21</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-6.png" alt="Georgia"><div class="izena">Georgia Mills</div>
+               <div class="datua"><strong>Lanpostua: </strong>Shipping Clerk</div>
+               <div class="datua"><strong>Email: </strong>georgia.mills@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.501.1876</div>
+               <div class="datua"><strong>Kontratazio data: </strong>04/02/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>24</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-2.png" alt="Amelia"><div class="izena">Amelia Myers</div>
+               <div class="datua"><strong>Lanpostua: </strong>Stock Clerk</div>
+               <div class="datua"><strong>Email: </strong>amelia.myers@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.121.8009</div>
+               <div class="datua"><strong>Kontratazio data: </strong>17/10/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>25</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-1.png" alt="Maisie"><div class="izena">Maisie Nichols</div>
+               <div class="datua"><strong>Lanpostua: </strong>Shipping Clerk</div>
+               <div class="datua"><strong>Email: </strong>maisie.nichols@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.501.2876</div>
+               <div class="datua"><strong>Kontratazio data: </strong>03/03/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>24</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-4.png" alt="Abigail"><div class="izena">Abigail Palmer</div>
+               <div class="datua"><strong>Lanpostua: </strong>Shipping Clerk</div>
+               <div class="datua"><strong>Email: </strong>abigail.palmer@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.505.4876</div>
+               <div class="datua"><strong>Kontratazio data: </strong>19/12/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>23</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-6.png" alt="Aaron"><div class="izena">Aaron Patterson</div>
+               <div class="datua"><strong>Lanpostua: </strong>Stock Clerk</div>
+               <div class="datua"><strong>Email: </strong>aaron.patterson@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.124.1334</div>
+               <div class="datua"><strong>Kontratazio data: </strong>14/01/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>21</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-6.png" alt="Summer"><div class="izena">Summer Payne</div>
+               <div class="datua"><strong>Lanpostua: </strong>Public Accountant</div>
+               <div class="datua"><strong>Email: </strong>summer.payne@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>515.123.8181</div>
+               <div class="datua"><strong>Kontratazio data: </strong>07/06/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>106</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-6.png" alt="Emma"><div class="izena">Emma Perkins</div>
+               <div class="datua"><strong>Lanpostua: </strong>Marketing Manager</div>
+               <div class="datua"><strong>Email: </strong>emma.perkins@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>515.123.5555</div>
+               <div class="datua"><strong>Kontratazio data: </strong>17/02/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>1</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-2.png" alt="Ronnie"><div class="izena">Ronnie Perry</div>
+               <div class="datua"><strong>Lanpostua: </strong>Stock Manager</div>
+               <div class="datua"><strong>Email: </strong>ronnie.perry@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.123.5234</div>
+               <div class="datua"><strong>Kontratazio data: </strong>16/11/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>1</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-2.png" alt="Mohammad"><div class="izena">Mohammad Peterson</div>
+               <div class="datua"><strong>Lanpostua: </strong>Finance Manager</div>
+               <div class="datua"><strong>Email: </strong>mohammad.peterson@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>515.124.4569</div>
+               <div class="datua"><strong>Kontratazio data: </strong>17/08/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>2</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-5.png" alt="Leon"><div class="izena">Leon Powell</div>
+               <div class="datua"><strong>Lanpostua: </strong>Stock Clerk</div>
+               <div class="datua"><strong>Email: </strong>leon.powell@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.124.1214</div>
+               <div class="datua"><strong>Kontratazio data: </strong>16/07/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>21</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-4.png" alt="Frederick"><div class="izena">Frederick Price</div>
+               <div class="datua"><strong>Lanpostua: </strong>Purchasing Clerk</div>
+               <div class="datua"><strong>Email: </strong>frederick.price@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>515.127.4563</div>
+               <div class="datua"><strong>Kontratazio data: </strong>24/12/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>47</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-5.png" alt="Tyler"><div class="izena">Tyler Ramirez</div>
+               <div class="datua"><strong>Lanpostua: </strong>Accountant</div>
+               <div class="datua"><strong>Email: </strong>tyler.ramirez@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>515.124.4269</div>
+               <div class="datua"><strong>Kontratazio data: </strong>28/09/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>9</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-2.png" alt="Lola"><div class="izena">Lola Ramos</div>
+               <div class="datua"><strong>Lanpostua: </strong>Shipping Clerk</div>
+               <div class="datua"><strong>Email: </strong>lola.ramos@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.507.9876</div>
+               <div class="datua"><strong>Kontratazio data: </strong>24/01/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>21</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-2.png" alt="Willow"><div class="izena">Willow Reyes</div>
+               <div class="datua"><strong>Lanpostua: </strong>Shipping Clerk</div>
+               <div class="datua"><strong>Email: </strong>willow.reyes@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.507.9877</div>
+               <div class="datua"><strong>Kontratazio data: </strong>23/02/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>21</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-6.png" alt="Molly"><div class="izena">Molly Rice</div>
+               <div class="datua"><strong>Lanpostua: </strong>Shipping Clerk</div>
+               <div class="datua"><strong>Email: </strong>molly.rice@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.509.3876</div>
+               <div class="datua"><strong>Kontratazio data: </strong>24/06/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>22</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-2.png" alt="Louie"><div class="izena">Louie Richardson</div>
+               <div class="datua"><strong>Lanpostua: </strong>Programmer</div>
+               <div class="datua"><strong>Email: </strong>louie.richardson@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>590.423.4567</div>
+               <div class="datua"><strong>Kontratazio data: </strong>03/01/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>3</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-1.png" alt="Jude"><div class="izena">Jude Rivera</div>
+               <div class="datua"><strong>Lanpostua: </strong>Administration Vice President</div>
+               <div class="datua"><strong>Email: </strong>jude.rivera@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>515.123.4568</div>
+               <div class="datua"><strong>Kontratazio data: </strong>21/09/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>1</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-3.png" alt="Ellie"><div class="izena">Ellie Robertson</div>
+               <div class="datua"><strong>Lanpostua: </strong>Shipping Clerk</div>
+               <div class="datua"><strong>Email: </strong>ellie.robertson@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.509.4876</div>
+               <div class="datua"><strong>Kontratazio data: </strong>07/02/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>22</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-2.png" alt="Amber"><div class="izena">Amber Rose</div>
+               <div class="datua"><strong>Lanpostua: </strong>Shipping Clerk</div>
+               <div class="datua"><strong>Email: </strong>amber.rose@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.507.9822</div>
+               <div class="datua"><strong>Kontratazio data: </strong>23/05/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>25</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-4.png" alt="Jaxon"><div class="izena">Jaxon Ross</div>
+               <div class="datua"><strong>Lanpostua: </strong>Stock Manager</div>
+               <div class="datua"><strong>Email: </strong>jaxon.ross@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.123.1234</div>
+               <div class="datua"><strong>Kontratazio data: </strong>18/07/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>1</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-6.png" alt="Sonny"><div class="izena">Sonny Russell</div>
+               <div class="datua"><strong>Lanpostua: </strong>Stock Clerk</div>
+               <div class="datua"><strong>Email: </strong>sonny.russell@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.121.1234</div>
+               <div class="datua"><strong>Kontratazio data: </strong>14/07/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>24</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-2.png" alt="Alex"><div class="izena">Alex Sanders</div>
+               <div class="datua"><strong>Lanpostua: </strong>Purchasing Clerk</div>
+               <div class="datua"><strong>Email: </strong>alex.sanders@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>515.127.4562</div>
+               <div class="datua"><strong>Kontratazio data: </strong>18/05/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>47</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-3.png" alt="Holly"><div class="izena">Holly Shaw</div>
+               <div class="datua"><strong>Lanpostua: </strong>Shipping Clerk</div>
+               <div class="datua"><strong>Email: </strong>holly.shaw@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.509.1876</div>
+               <div class="datua"><strong>Kontratazio data: </strong>27/01/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>22</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-1.png" alt="Reggie"><div class="izena">Reggie Simmons</div>
+               <div class="datua"><strong>Lanpostua: </strong>Stock Clerk</div>
+               <div class="datua"><strong>Email: </strong>reggie.simmons@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.124.8234</div>
+               <div class="datua"><strong>Kontratazio data: </strong>10/04/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>22</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-6.png" alt="Harper"><div class="izena">Harper Spencer</div>
+               <div class="datua"><strong>Lanpostua: </strong>Human Resources Representative</div>
+               <div class="datua"><strong>Email: </strong>harper.spencer@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>515.123.7777</div>
+               <div class="datua"><strong>Kontratazio data: </strong>07/06/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>2</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-2.png" alt="Rose"><div class="izena">Rose Stephens</div>
+               <div class="datua"><strong>Lanpostua: </strong>Accounting Manager</div>
+               <div class="datua"><strong>Email: </strong>rose.stephens@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>515.123.8080</div>
+               <div class="datua"><strong>Kontratazio data: </strong>07/06/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>2</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-4.png" alt="Bella"><div class="izena">Bella Stone</div>
+               <div class="datua"><strong>Lanpostua: </strong>Shipping Clerk</div>
+               <div class="datua"><strong>Email: </strong>bella.stone@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.507.9833</div>
+               <div class="datua"><strong>Kontratazio data: </strong>21/06/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>25</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-2.png" alt="Ava"><div class="izena">Ava Sullivan</div>
+               <div class="datua"><strong>Lanpostua: </strong>Sales Manager</div>
+               <div class="datua"><strong>Email: </strong>ava.sullivan@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>011.44.1344.429268</div>
+               <div class="datua"><strong>Kontratazio data: </strong>01/10/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>1</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-1.png" alt="Bobby"><div class="izena">Bobby Torres</div>
+               <div class="datua"><strong>Lanpostua: </strong>Programmer</div>
+               <div class="datua"><strong>Email: </strong>bobby.torres@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>590.423.5567</div>
+               <div class="datua"><strong>Kontratazio data: </strong>07/02/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>4</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-1.png" alt="Ella"><div class="izena">Ella Wallace</div>
+               <div class="datua"><strong>Lanpostua: </strong>Sales Manager</div>
+               <div class="datua"><strong>Email: </strong>ella.wallace@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>011.44.1344.467268</div>
+               <div class="datua"><strong>Kontratazio data: </strong>05/01/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>1</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-2.png" alt="Charles"><div class="izena">Charles Ward</div>
+               <div class="datua"><strong>Lanpostua: </strong>Programmer</div>
+               <div class="datua"><strong>Email: </strong>charles.ward@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>590.423.4560</div>
+               <div class="datua"><strong>Kontratazio data: </strong>05/02/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>4</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-4.png" alt="Ellis"><div class="izena">Ellis Washington</div>
+               <div class="datua"><strong>Lanpostua: </strong>Stock Clerk</div>
+               <div class="datua"><strong>Email: </strong>ellis.washington@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>650.124.6234</div>
+               <div class="datua"><strong>Kontratazio data: </strong>30/10/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>22</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-3.png" alt="Albert"><div class="izena">Albert Watson</div>
+               <div class="datua"><strong>Lanpostua: </strong>Accountant</div>
+               <div class="datua"><strong>Email: </strong>albert.watson@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>515.124.4469</div>
+               <div class="datua"><strong>Kontratazio data: </strong>07/03/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>9</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-3.png" alt="Mia"><div class="izena">Mia West</div>
+               <div class="datua"><strong>Lanpostua: </strong>Sales Manager</div>
+               <div class="datua"><strong>Email: </strong>mia.west@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>011.44.1344.429018</div>
+               <div class="datua"><strong>Kontratazio data: </strong>29/01/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>1</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-4.png" alt="Louis"><div class="izena">Louis Wood</div>
+               <div class="datua"><strong>Lanpostua: </strong>Purchasing Clerk</div>
+               <div class="datua"><strong>Email: </strong>louis.wood@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>515.127.4565</div>
+               <div class="datua"><strong>Kontratazio data: </strong>15/11/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>47</div>
+            </div>
+            <div class="datuak"><img src="../images/avatar/thumb-1.png" alt="Jessica"><div class="izena">Jessica Woods</div>
+               <div class="datua"><strong>Lanpostua: </strong>Sales Manager</div>
+               <div class="datua"><strong>Email: </strong>jessica.woods@example.com</div>
+               <div class="datua"><strong>Telefonoa: </strong>011.44.1344.429278</div>
+               <div class="datua"><strong>Kontratazio data: </strong>10/03/16</div>
+               <div class="datua"><strong>Id nagusi: </strong>1</div>
+            </div>
+         </div>
+      </main>
+      <footer id="footer">
+         <div class="box">
+            <h2>JARRI KONTAKTUAN</h2>
+            <div class="red-social"><a href="https://www.gamestop.com/">GS</a><a href="https://www.facebook.com/GameStop" class="fa fa-facebook"></a><a href="https://x.com/gamestop" class="fa-brands fa-x-twitter"></a><a href="https://www.instagram.com/gamestop/" class="fa fa-instagram"></a><a href="https://www.tiktok.com/@gamestop" class="fa-brands fa-tiktok"></a><a href="https://www.youtube.com/gamestopvideo" class="fa fa-youtube"></a></div>
+         </div>
+         <p id="top" class="text-center"><a href="#top-page"><i class="bx bxs-chevron-up"></i></a></p>
+      </footer><script>
+          document.getElementById('searchInput').addEventListener('input', function() {
+          var texto = this.value.toLowerCase();
+          var tarjetas = document.querySelectorAll('.datuak');
+          var visibles = 0;
+          tarjetas.forEach(function(tarjeta) {
+          var izena = tarjeta.querySelector('.izena');
+          if (izena) {
+          var mostrar = izena.textContent.toLowerCase().includes(texto);
+          tarjeta.style.display = mostrar ? '' : 'none';
+          if (mostrar) visibles++;
+          }
+          });
+          var contador = document.getElementById('contador');
+          if (contador) contador.textContent = visibles;
+          });
+        </script></body>
+</html>

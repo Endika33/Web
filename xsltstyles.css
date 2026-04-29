@@ -1,0 +1,81 @@
+body { font-family: Arial, sans-serif; 
+    background-color: #f4f4f9; 
+    padding: 20px; 
+}
+
+.eskariak{
+    display: flex; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.produktuak {
+    display: flex; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.biltegiak {
+    display: flex; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.bezeroak { 
+    display: flex; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.saltzaileak { 
+    display: flex; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.bulegariak { 
+    display: flex; 
+    gap: 20px; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.datuak {
+    background-color: white;
+    border-top: 4px solid #c70039;
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+.datuak:hover {
+    transform: scale(1.03);
+}
+
+.datua ul {
+    padding-left: 1rem;
+}
+
+.datua a, .datua {
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.izena { 
+    font-size: 18px; 
+    font-weight: bold; 
+    color: #333; 
+    margin-bottom: 10px; 
+}
+
+.datua { 
+    font-size: 14px; 
+    color: #555; 
+    margin-bottom: 5px; 
+}
